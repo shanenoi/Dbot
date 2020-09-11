@@ -1,0 +1,84 @@
+lang|device|code|stdinput|ext|compile|execute|mainfile|uid
+ada||||adb|gnatmake -o hello *.adb|hello|hello.adb|
+algol||||alg|0|a68g main.alg|main.alg|
+angularjs||||htm|0|0|index.htm|
+asm||||asm|nasm -f elf *.asm; ld -m elf_i386 -s -o demo *.o|demo|main.asm|
+awk||||awk|0|awk -f main.awk|main.awk|
+bash||||sh|0|bash -f main.sh|main.sh|
+befunge||||be|tbc main.be >main.c; gcc -o main  main.c|main|main.be|
+brainfuck||||bf|0|bfi main.bf|main.bf|
+c||||c|gcc -o main *.c|main|main.c|
+cbasic||||bas|0|basic main.bas|main.bas|
+clojure||||clj|0|java -jar /usr/share/java/clojure.jar -i main.clj|main.clj|
+cobol||||cobc|cobc -x -free *.cobc -o main|main|main.cobc|
+coldfusion||||cfm|0|wget|index.cfm|
+c99||||c|gcc -std=c99 -o main *.c|main|main.c|
+cpp||||cpp|g++ -o main *.cpp|main|main.cpp|
+cpp0x||||cpp|g++ -std=c++0x -o main *.cpp|main|main.cpp|
+cpp11||||cpp|g++ -std=c++11 -o main *.cpp|main|main.cpp|
+csharp||||cs|mcs *.cs -out:main.exe|mono main.exe|main.cs|
+dart||||dart|0|dart main.dart|main.dart|
+d||||d|dmd  *.d -ofmain.amx|main.amx|main.d|
+erlang||||erl|erlc *.erl|erl -noshell -s helloworld start -s init stop|helloworld.erl|
+elixir||||exs|0|elixir main.exs|main.exs|
+factor||||factor|0|factor main.factor|main.factor|
+fantom||||fan|0|fan main.fan|main.fan|
+falcon||||fl|0|falcon main.fl|main.fl|
+fortran||||f95|gfortran -std=gnu *.f95 -o main|main|main.f95|
+forth||||fth|0|gforth main.fth -e bye|main.fth|
+fsharp||||fs|fsharpc *.fs --out:main.exe|mono main.exe|main.fs|
+fbc||||bas|fbc -x main *.bas|main|main.bas|
+groovy||||groovy|0|groovy main.groovy|main.groovy|
+golang||||go|0|go run main.go|main.go|
+haxe||||hx|0|haxe -main HelloWorld --interp|HelloWorld.hx|
+haskell||||hs|ghc -O2 --make *.hs -o main -threaded -rtsopts|main|main.hs|
+ilasm||||il|ilasm *.il -out:main.exe|mono main.exe|main.il|
+intercal||||i|ick *.i|main|main.i|
+icon||||icn|icont -o main *.icn|main|main.icn|
+java||||java|javac|java -Xmx128M -Xms16M|HelloWorld.java|
+java8||||java|javac|java -Xmx128M -Xms16M|HelloWorld.java|
+jdbc||||java|javac|java -Xmx128M -Xms16M|JDBCExample.java|
+jsp||||jsp|0|wget|index.jsp|
+julia||||jl|0|julia main.jl|main.jl|
+jython||||py|0|jython main.py|main.py|
+kotlin||||kt|kotlinc main.kt -include-runtime -d main.jar|java -Xmx128M -Xms16M -jar main.jar|main.kt|
+ksh||||ksh|0|ksh main.ksh|main.ksh|
+lisp||||lisp|0|clisp main.lisp|main.lisp|
+lolcode||||lo|0|lci main.lo|main.lo|
+lua||||lua|0|lua main.lua|main.lua|
+octave||||m|0|octave -qf --no-window-system demo.m|demo.m|
+malbolge||||mal|0|malbolge main.mal|main.mal|
+mozart||||oz|ozc -c *.oz -o main.oza|ozengine main.oza|main.oz|
+nimrod||||nim|nim --o:main --hints:off c *.nim|main|main.nim|
+node||||js|0|node main.js|main.js|
+objc||||m|gcc -MMD -MP -DGNUSTEP -DGNUSTEP_BASE_LIBRARY=1 -DGNU_GUI_LIBRARY=1 -DGNU_RUNTIME=1 -DGNUSTEP_BASE_LIBRARY=1 -fno-strict-aliasing -fexceptions -fobjc-exceptions -D_NATIVE_OBJC_EXCEPTIONS -pthread -fPIC -Wall -DGSWARN -DGSDIAGNOSE -Wno-import -g -O2 -fgnu-runtime -fconstant-string-class=NSConstantString -fexec-charset=UTF-8 -I. -I/usr/GNUstep/System/Library/Headers  -L/usr/GNUstep/System/Library/Libraries -lgnustep-base -lobjc *.m -o main|main|main.m|
+ocaml||||ml|ocamlc -o main *.ml|main|main.ml|
+oracle||||sh|0|sh sql.sh|sql.sh|
+pascal||||pas|fpc -vw main.pas|main|main.pas|
+pari||||gp|0|gp -q main.gp|main.gp|
+pawn||||p|pawncc -i./ *.p -omain.amx|pawnrun main.amx|main.p|
+perl||||pl|0|perl main.pl|main.pl|
+rubydb||||rb|0|ruby main.rb|main.rb|
+php||||php|0|php main.php|main.php|
+phpweb||||php|0|php main.php|main.php|
+pike||||pike|0|pike main.pike|main.pike|
+prolog||||pg|0|gprolog --consult-file main.pg|main.pg|
+python||||py|0|python main.py|main.py|
+python3||||py|0|python3 main.py|main.py|
+rexx||||rex|0|rexx main.rex|main.rex|
+ruby||||rb|0|ruby main.rb|main.rb|
+rust||||rs|rustc -o main *.rs|main|main.rs|
+rscript||||r|0|Rscript main.r|main.r|
+scala||||scala|scalac *.scala|scala HelloWorld|HelloWorld.scala|
+scheme||||sc|0|gosh main.sc|main.sc|
+smalltalk||||gst|0|gst main.gst|main.gst|
+smlnj||||sml|0|sml < main.sml|main.sml|
+simula||||sim|cim -o main -w *.sim|main|main.sim|
+sqlite||||sql|0|sqlite3 database.sdb < main.sql|main.sql|
+swift||||swift|0|swift main.swift|main.swift|
+tcl||||tcl|0|tclsh main.tcl|main.tcl|
+unlambda||||unlambda|0|unlambda < main.unlambda|main.unlambda|
+vb.net||||vb|vbnc *.vb /out:main.exe|mono main.exe|main.vb|
+verilog||||v|iverilog -o main *.v|vvp main|main.v|
+wspace||||ws|0|wspace main.ws|main.ws|
+basic||||bas|0|yabasic main.bas|main.bas|
