@@ -1,84 +1,84 @@
-#/* C */#
-# Prerequisites
-*.d
+##############################
+## Java
+##############################
+.mtj.tmp/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+##############################
+## Maven
+##############################
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.xml.bak
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
 
-# Linker output
-*.ilk
-*.map
-*.exp
+##############################
+## Gradle
+##############################
+bin/
+build/
+.gradle
+.gradletasknamecache
+gradle-app.setting
+!gradle-wrapper.jar
 
-# Precompiled Headers
-*.gch
-*.pch
+##############################
+## IntelliJ
+##############################
+out/
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+##############################
+## Eclipse
+##############################
+.settings/
+bin/
+tmp/
+.metadata
+.classpath
+.project
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.factorypath
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+##############################
+## NetBeans
+##############################
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+##############################
+## Visual Studio Code
+##############################
+.vscode/
+.code-workspace
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-#/* C++ */#
-# Compiled Object files                                                            
-*.slo                                                                              
-*.lo                                                                               
-*.o                                                                                
-*.obj                                                                              
-                                                                                   
-# Precompiled Headers                                                              
-*.gch                                                                              
-*.pch                                                                              
-                                                                                   
-# Compiled Dynamic libraries                                                       
-*.so                                                                               
-*.dylib                                                                            
-*.dll                                                                              
-                                                                                   
-# Fortran module files                                                             
-*.mod                                                                              
-*.smod                                                                             
-                                                                                   
-# Compiled Static libraries                                                        
-*.lai                                                                              
-*.la                                                                               
-*.a                                                                                
-*.lib                                                                              
-                                                                                   
-# Executables                                                                      
-*.exe                                                                              
-*.out                                                                              
-*.app
+##############################
+## OS X
+##############################
+.DS_Store
