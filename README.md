@@ -62,6 +62,7 @@ Automatical Bot
     public class Main {
 
         public static void testRequest() throws IOException {
+            CodeContainer code = new CodeContainer();
             Rextester rex = new Rextester();
             Map<String, String> details = new HashMap<>();
             details.put("Program","print('Hello')");
